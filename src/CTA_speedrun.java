@@ -7,13 +7,13 @@ import java.util.regex.Pattern;
 
 public class CTA_speedrun {
 
-    public static void main(){
-        String regex = "(\\d\\d):(\\d\\d):(\\d\\d),(\\d\\d\\d) --> (\\d\\d):(\\d\\d):(\\d\\d),(\\d\\d\\d)";
-        Pattern pattern = Pattern.compile(regex);
-    }
+  public static void main(){
+    String regex = "(\\d{11,}),(\\d{2}:\\d{2}:\\d{2}),(\\d{2}:\\d{2}:\\d{2}),(\\d+),(\\d+),([^,]*),(\\d+),(\\d+)";
+    Pattern pattern = Pattern.compile(regex);
+  }
 
-    public static void detection (){
+  public static void detection (){
 
-    }
+  }
 
 }
