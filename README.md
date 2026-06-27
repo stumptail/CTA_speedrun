@@ -1,2 +1,2 @@
-﻿# CTA_speedrun
+﻿# CTASpeedrun
 
